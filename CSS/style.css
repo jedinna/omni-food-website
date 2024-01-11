@@ -102,6 +102,8 @@
   color: #cf711f;
   font-weight: 700;
 }
+/* featured section */
+
 .section-featured{
   padding: 4.8rem 0 3.2rem 0;
 }
@@ -171,4 +173,26 @@ z-index: -1;
 .step-description{
   font-size: 1.8rem;
   line-height: 1.8;
+}
+/* meals seection */
+.section-meal{
+  padding: 9.6rem o;
+}
+.meal-title{
+  font-size: 2rem;
+  color:#333;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
+.meal-attributes{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap:2rem;
+}
+.meal-attribute{
+  font-size: 1.8rem;
+}
+.meal-img{
+  width:100%;
 }
