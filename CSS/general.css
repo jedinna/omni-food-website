@@ -65,7 +65,7 @@ body {
   } */
 .grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  /* grid-template-columns: repeat(2, 1fr); */
   row-gap: 9.6rem;
   column-gap: 6.4rem;
 }
@@ -84,6 +84,9 @@ grid:not(:last-child){
 }
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
+}
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
 }
 .grid--center-v {
   align-items: center;
