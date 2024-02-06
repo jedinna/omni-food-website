@@ -421,10 +421,31 @@ strong {
   overflow: hidden;
 
 }
+.cta-text-box{
+  padding: 4.8rem 6.4rem;
+  color: #45260a;
+}
+.cta .heading-secodary{
+  color: #45260a;
+  margin-bottom: 3.2rem;
+
+}
+.cta-text{
+  font-size:1.8rem ;
+  line-height: 1.8;
+  margin-bottom: 4.8rem;
+}
 .cta-img-box{
   background-image: url("../img/eating.jpg");
   background-size: cover;
   background-position: center;
   background-image: linear-gradient(to right bottom ,rgba(235, 138, 78, 0.35),rgba(230, 125, 34, 0.35)),url("../img/eating.jpg");;
   
+}
+
+.cta-form{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
 }
