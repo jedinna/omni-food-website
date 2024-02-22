@@ -41,7 +41,7 @@ SPACING SYSTEM (px)
 }
 html {
   font-size: 62.5%;
-  overflow-x:hidden;
+  overflow-x: hidden;
 }
 
 body {
@@ -74,8 +74,7 @@ body {
 /* grid:last-child{
   margin-bottom: 0;
 } */
-grid:not(:last-child){
-  
+grid:not(:last-child) {
   margin-bottom: 9.6rem;
 }
 .grid--2-clos {
@@ -110,7 +109,7 @@ grid:not(:last-child){
 }
 .heading-secondary {
   font-size: 4.4rem;
-  line-height: 1.2px;
+  line-height: 1.2;
   margin-bottom: 9.6rem;
 }
 .heading-teritiary {
@@ -128,7 +127,8 @@ grid:not(:last-child){
   letter-spacing: 0.75px;
 }
 
-.btn,.btn:link,
+.btn,
+.btn:link,
 .btn:visited {
   display: inline-block;
   background-color: #e67e22;
@@ -145,14 +145,14 @@ grid:not(:last-child){
 
   font-family: inherit;
 }
-.btn-form{
+.btn-form {
   background-color: #45260a;
   color: #fdf2e9;
   align-self: end;
   padding: 1.2rem;
 }
-.btn-form:hover{
-  background-color: #fff ;
+.btn-form:hover {
+  background-color: #fff;
   color: #555;
 }
 .btn--full:link,
@@ -196,28 +196,27 @@ grid:not(:last-child){
 .margin-bottom-mb {
   margin-bottom: 4.8rem !important;
 }
-.center-text{
+.center-text {
   text-align: center;
 }
-.list{
+.list {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap:1.6rem;
-
+  gap: 1.6rem;
 }
-.list-item{
+.list-item {
   font-size: 1.8rem;
   display: flex;
   align-items: center;
   gap: 1.6rem;
 }
-.list-icon{
+.list-icon {
   width: 3rem;
   height: 3rem;
-  color:#e67e22;
+  color: #e67e22;
 }
-*:focus{
+*:focus {
   outline: none;
   /* outline: 4px dotted #e67e22; */
   box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.53);
