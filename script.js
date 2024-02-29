@@ -8,20 +8,21 @@ btnNav.addEventListener("click", function () {
 
 const sectionheroel = document.querySelector(".section-hero");
 
-const obs = new IntersectionObserver(function (entries) {
+const obs = new IntersectionObserver(
+  function (entries) {
     const ent = entries[0];
-    if(ent.isIntersecting ===false){
-        document.body.classList.add('stickey')
-    } if(ent.isIntersecting ){
-        document.body.classList.remove('stickey')
+    if (ent.isIntersecting === false) {
+      document.body.classList.add("stickey");
     }
-   
-   
-    
-}, {
-  root: null,
-  threshold: 0,
-  rootMargin:'-80px',
-});
+    if (ent.isIntersecting) {
+      document.body.classList.remove("stickey");
+    }
+  },
+  {
+    root: null,
+    threshold: 0,
+    rootMargin: "-80px",
+  }
+);
 
 obs.observe(sectionheroel);
